@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['none', 'pick1', 'pick2', 'pick3', 'pick4', 'pick5']
+
+roboflow:
+  workspace: pakkad-s77sd
+  project: checkpic
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pakkad-s77sd/checkpic/dataset/1

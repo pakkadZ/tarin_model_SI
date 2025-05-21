@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['grey', 'head']
+
+roboflow:
+  workspace: pakkad-s77sd
+  project: ob-ndbly
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pakkad-s77sd/ob-ndbly/dataset/1

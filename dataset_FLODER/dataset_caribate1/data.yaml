@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['dot']
+
+roboflow:
+  workspace: pakkad-s77sd
+  project: caribate1
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pakkad-s77sd/caribate1/dataset/1
